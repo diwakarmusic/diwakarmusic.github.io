@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diwaker Music</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 60px 20px;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #bbb;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #151515;
+    border-radius: 16px;
+    width: 220px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.song-title {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    color: #888;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">🎵 DIWAKER</div>
+    <div class="subtitle">
+        Your official music page — click any song to listen on Spotify!
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+          <a href="https://open.spotify.com/album/1MCoGB2bjYiRXVU8hkHlCy">
+            <img src="https://images.unsplash.com/photo-1520974735194-6cbd59f26f03" alt="Ankahe">
+            <div class="song-title">Spotify</div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="http://itunes.apple.com/album/id1873504958?ls=1&app=itunes">
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="Ankahe">
+            <div class="song-title">Apple Music</div>
+          </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        New songs coming soon! 🎶
+    </div>
+
+</div>
+
+</body>
+</html>
